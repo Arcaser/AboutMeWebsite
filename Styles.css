@@ -4,16 +4,18 @@ p {
 header{
     background-color: blueviolet;
     text-align: center;
-    padding: 0px;
+    padding: 10 auto;
 }
 nav ul li{
     display:inline;
-    border: 1px solid blue;
     text-align: center;
+    font-size: 25px;
+
 }
 nav{
-    background-color: aqua;
+    background-color: white;
 }
 nav ul{
     text-align: center;
+
 }
