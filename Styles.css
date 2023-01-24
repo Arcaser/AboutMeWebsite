@@ -1,0 +1,19 @@
+p {
+    color:red;
+}
+header{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 0px;
+}
+nav ul li{
+    display:inline;
+    border: 1px solid blue;
+    text-align: center;
+}
+nav{
+    background-color: aqua;
+}
+nav ul{
+    text-align: center;
+}
