@@ -4,17 +4,19 @@
 header{
     text-align: center;
     padding: 10 auto;
+    position:sticky
+    
 }
 nav ul li{
     display:inline;
     text-align: center;
     font-size: 25px;
     padding: 10px;
-
+    border: 2px solid lightblue;
 }
 nav ul{
     text-align: center;
-
+    border: 1px cen;
 }
 a:link{
     text-decoration: none;
