@@ -1,27 +1,64 @@
-*{
-    background-color: lightgrey;
-}
-header{
+header {
     text-align: center;
     padding: 10 auto;
-    position:sticky
-    
+    position: sticky;
+    border: 3px solid black;
+    background-color: rgb(247, 229, 232);
+    margin: 0;
 }
-nav ul li{
-    display:inline;
-    text-align: center;
-    font-size: 25px;
+
+nav ul li {
+    display: inline;
+    font-size: 20px;
     padding: 10px;
-    border: 2px solid lightblue;
+    margin: 0 auto;
 }
-nav ul{
-    text-align: center;
-    border: 1px cen;
+
+nav ul li:hover {
+    background-color: rgb(255, 231, 231);
+    border: 3px solid rgb(20, 16, 16);
 }
-a:link{
+
+a:link {
     text-decoration: none;
-    color:rgb(82, 80, 80);
+    color: rgb(82, 80, 80);
 }
-a:visited{
-    color:rgb(82, 80, 80);
+
+a:visited {
+    color: rgb(82, 80, 80);
+}
+
+.Page_Title {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:auto;
+    margin-bottom:0;
+    width: 1%;
+
+}
+
+p {
+    font-size: 20px;
 }
