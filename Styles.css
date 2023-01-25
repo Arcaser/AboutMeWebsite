@@ -1,8 +1,7 @@
-p {
-    color:red;
+*{
+    background-color: lightgrey;
 }
 header{
-    background-color: blueviolet;
     text-align: center;
     padding: 10 auto;
 }
@@ -10,12 +9,17 @@ nav ul li{
     display:inline;
     text-align: center;
     font-size: 25px;
+    padding: 10px;
 
-}
-nav{
-    background-color: white;
 }
 nav ul{
     text-align: center;
 
+}
+a:link{
+    text-decoration: none;
+    color:rgb(82, 80, 80);
+}
+a:visited{
+    color:rgb(82, 80, 80);
 }
