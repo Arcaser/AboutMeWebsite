@@ -1,27 +1,32 @@
+
 header {
     text-align: center;
     padding: 10 auto;
     position: sticky;
     border: 3px solid black;
-    background-color: rgb(247, 229, 232);
+    background-color:#4DA8DA;
     margin: 0;
+
 }
 
 nav ul li {
     display: inline;
     font-size: 20px;
-    padding: 10px;
     margin: 0 auto;
+    padding:10px;
+    color:white;
 }
 
 nav ul li:hover {
-    background-color: rgb(255, 231, 231);
-    border: 3px solid rgb(20, 16, 16);
+    background-color:#007CC7;
+    border-radius:10px;
+    width:fit-content;
+    border: 1px solid white;
 }
 
 a:link {
     text-decoration: none;
-    color: rgb(82, 80, 80);
+    color:white;
 }
 
 a:visited {
@@ -31,11 +36,12 @@ a:visited {
 .Page_Title {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    color:white;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 0px;
     height: 100vh;
@@ -53,12 +59,14 @@ a:visited {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:auto;
-    margin-bottom:0;
+   
     width: 1%;
 
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
+}
+h3{
+    color:white;
 }
