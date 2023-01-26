@@ -4,9 +4,6 @@
     <title>Return from Whence thou camest</title>
    <link href="Styles.css" type="text/css" rel="stylesheet">
   </head>
-<header>
-   
-</header>
 <body>
   <h1>Click the eye to go back home</h1>
   <img id="404" src="Graphics/404.png">
