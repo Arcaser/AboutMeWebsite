@@ -5,7 +5,7 @@
    <link href="Styles.css" type="text/css" rel="stylesheet">
   </head>
 <body>
-  <h1 class="center">Click the eye to go back home</h1>
-  <a href="home.html"><img class="center" id="404" src="Graphics/404.png"></a>
+  <h1 class="404">Click the eye to go back home</h1>
+  <a href="home.html"><img id="404" src="Graphics/404.png"></a>
 </body>
 </html>

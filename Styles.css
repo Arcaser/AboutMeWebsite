@@ -24,6 +24,9 @@ footer{
 #Contact li{
     display:inline-block;
 }
+#404{
+    margin:0 auto;
+}
 nav ul li {
     display: inline;
     font-size: 20px;
@@ -105,3 +108,4 @@ a:visited {
     width: 1%;
 
 }
+
