@@ -104,8 +104,9 @@ a:visited {
     display: block;
     margin-left: auto;
     margin-right: auto;
-   
-    width: 1%;
-
+}
+.arrow{
+    height:30px;
+    width:auto;
 }
 
