@@ -1,14 +1,28 @@
-
+body{
+    overflow-x: hidden;
+}
 header {
-    padding: 10 auto;
+    width: 100%;
+    padding: 0 auto;
     position: sticky;
     border: 3px solid #6e86d3;
     background-color:rgb(58,83,166);
     margin: 0;
     text-align:right;
+
 }
 footer{
-    display:inline;
+    align-items:center;
+}
+#contact{
+    align-self:center;
+}
+#Contact li a img{
+    width:50px;
+    height:auto;
+}
+#Contact li{
+    display:inline-block;
 }
 nav ul li {
     display: inline;
@@ -58,7 +72,7 @@ a:visited {
 
 
 .grid-container p{
-    padding:30px;
+    padding:35px;
     font-size:25px; 
     font-family:Georgia, 'Times New Roman', Times, serif  
 }
@@ -81,7 +95,6 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #3A53A6;
 }
 
 .center {
