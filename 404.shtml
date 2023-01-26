@@ -6,6 +6,6 @@
   </head>
 <body>
   <h1 class="center">Click the eye to go back home</h1>
-  <a href="home.html"><img id="center" src="Graphics/404.png"></a>
+  <a href="home.html"><img class="center" src="Graphics/404.png"></a>
 </body>
 </html>
