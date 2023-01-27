@@ -4,3 +4,5 @@ greek evil eye:
 #FFFFFF
 #3A53A6-58,83,166
 #94D8EA-148,216,234
+Greek from GPT
+#
