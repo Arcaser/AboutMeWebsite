@@ -102,7 +102,6 @@ a:visited {
 .center {
     width:auto;
     position:sticky;
-    top: 100%;
     bottom:0;
     left: 50%;
     transform: translate(-50%, -50%);
