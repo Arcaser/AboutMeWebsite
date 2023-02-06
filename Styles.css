@@ -26,14 +26,8 @@ footer{
 #Contact li{
     display:inline-block;
 }
-#Homepage_img{
-    display:inline;
-    margin: 0 auto;
-    height:125px;
-    width:auto;
-}
-#Projects{
-    
+#spaced{
+    padding:50px;
 }
 nav ul li {
     display: inline;
@@ -119,5 +113,42 @@ a:visited {
 .Arrow{
     height:50px;
     width:auto;
+}
+.twoGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    padding-top:50px;
+    padding-bottom:100px;
+   
+    padding-left: 150px;
+  }
+  
+.twoGrid-item {
+    text-align: center;
+    width:100%;
+  }
+.twoGrid-item p{
+    text-align:left;
+    display:inline;
+}
+.twoGrid-item h1{
+    color:white;
+    border:3px solid #6e86d3;
+    background-color:#3A53A6;
+    border-radius: 55px;
+    font-size:25px;
+}
+
+.twoGrid-item-picture img{
+    margin: 0 auto;
+    width:100%;
+    float:left;
+}
+.twoGrid-item-picture{
+    width:50%;
+    float:left;
+    width:300px;
+
 }
 
