@@ -26,6 +26,15 @@ footer{
 #Contact li{
     display:inline-block;
 }
+#Homepage_img{
+    display:inline;
+    margin: 0 auto;
+    height:125px;
+    width:auto;
+}
+#Projects{
+    
+}
 nav ul li {
     display: inline;
     font-size: 20px;
@@ -108,7 +117,7 @@ a:visited {
    
 }
 .Arrow{
-    height:100px;
+    height:50px;
     width:auto;
 }
 
