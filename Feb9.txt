@@ -1,0 +1,6 @@
+2/9/2023- Working on the OpenPyxll project trying to load students into an array and then load that array into a excel document. I am struggling with the array adding. What to add, how to add it, and the like.
+Also changed a lot of the methods to make them smoother and the functionality run better. An issue i found is that I was starting the counts at 1 instead of 0 because of how pyxyll identifies the column headers
+the student Init also changed a lot today.Working at 1:20. I think I debugged the Functionality. for some reason its been adding one to the load column headers which makes me think that thats been the issue the whole time.
+
+
+ChangeLog 2/9 - Added Functionality for The Load_Student_Data function and Fixed bugs from the past
