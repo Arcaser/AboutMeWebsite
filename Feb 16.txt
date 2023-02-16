@@ -1,0 +1,1 @@
+Changelog Momentum Project- 2/16. Finished loading the students and classes and their grades together. I now will talk to doctor bussey about the project questions and the best way to answer them dynamically. 
