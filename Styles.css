@@ -29,6 +29,26 @@ footer{
 #spaced{
     padding:50px;
 }
+
+#MonthHeader{
+    border: 3px solid #6e86d3;
+    background-color:rgb(58,83,166);
+    width: 50%;
+    color:white;
+    border-radius: 20px;
+    margin:0 auto;
+    font-size: 35px;
+    text-align:center;
+}
+#dayheader{
+    font-size:25px;
+    
+    
+}
+#main{
+  padding: 25px 50px;
+}
+
 nav ul li {
     display: inline;
     font-size: 20px;
