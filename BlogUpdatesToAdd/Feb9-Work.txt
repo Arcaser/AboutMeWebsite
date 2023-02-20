@@ -1,0 +1,4 @@
+2/9/2023- Worked on the AdDomain-Computer module for seneca. It was actually super easy. And quick. The original method of iterating the security log was a bad idea.
+It also runs in like 5 seconds which is super nice. WOrking on the QUickbooks Install ps1 now.
+
+ChangeLog - Added the Succesful logins.ps1 and sent to seneca.
