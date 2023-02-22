@@ -38,7 +38,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Top_Right"
      id="g119"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="path179"
@@ -65,7 +65,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Top"
      id="g6972"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse6966"
@@ -92,7 +92,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Top_Left"
      id="g7034"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse7028"
@@ -119,7 +119,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Left"
      id="g7042"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse7036"
@@ -146,7 +146,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Bottom_Left"
      id="g7050"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse7044"
@@ -173,7 +173,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Bottom"
      id="g7058"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse7052"
@@ -200,7 +200,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Bottom_Right"
      id="g7066"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse7060"
@@ -227,7 +227,7 @@
      inkscape:groupmode="layer"
      inkscape:label="Right"
      id="g7074"
-     style="display:none">
+     style="display:inline">
     <ellipse
        style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse7068"
@@ -254,9 +254,9 @@
      inkscape:groupmode="layer"
      inkscape:label="Middle"
      id="g8335"
-     style="display:inline">
+     style="display:none">
     <ellipse
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.31711;stroke-dasharray:none;stroke-opacity:1"
        id="ellipse8329"
        ry="103.70513"
        rx="105.77589"
@@ -265,15 +265,15 @@
     <ellipse
        style="fill:#3a53a6;fill-opacity:1;fill-rule:nonzero;stroke:#3a53a6;stroke-width:1.2159;stroke-opacity:1"
        id="ellipse8331"
-       cx="142.5629"
-       cy="117.72496"
+       cx="138.82019"
+       cy="118.40545"
        rx="50.588631"
        ry="49.908146" />
     <ellipse
        style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.15944;stroke-opacity:1"
        id="ellipse8333"
-       cx="142.90314"
-       cy="117.55485"
+       cx="139.84093"
+       cy="117.8951"
        rx="26.119183"
        ry="30.712498" />
   </g>
