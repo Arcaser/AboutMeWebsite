@@ -1,0 +1,8 @@
+Blog- Finished the Calculator and Some Preliminary Data Dives. As more Desires for more specific testing comes out I will add different 
+tests as time goes on and Dr.Bussey adds more data Requirements
+
+2/22/23
+
+Changelog 2/22/23 - Added the First Methods to Graph and Calculate the Processed data. 
+
+
