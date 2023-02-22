@@ -1,0 +1,3 @@
+Added a Connectwise Configured harness script
+
+Changelog- Harness Connectwise Script for logins being added.
