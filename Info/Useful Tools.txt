@@ -1,0 +1,9 @@
+All
+Chat.openAi.com/Chat - chatGPT
+
+Graphic Design:
+Remove BG - removes backgrounds
+
+
+Coding & Documentation:
+MDN, Bootstrap, JQuery Documentation Sites

@@ -1,70 +1,97 @@
 <!DOCTYPE html>
 
 <head>
-    <title>Home Page</title>
-    <link href="Styles.css" type="text/css" rel="stylesheet">
+    <title>Home_Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="CSS/BaseStyle.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <nav>
-            <ul>
-                
-                <a id="eye" href="https://en.wikipedia.org/wiki/Evil_Eye">
-
-                    <img src=Graphics/Eye.png>
-                </a>
-                <a href="./home.html">
-                    <li>Home Page</li>
-                </a>
-                <a href="./DigitalMedia.html">
-                    <li>The Eye</li>
-                </a>
-                <a href="./Goals.html">
-                    <li>Current Goals</li>
-                </a>
-                <a href="./Projects.html">
-                    <li>Projects</li>
-                </a>
-                <a href="./Blog.html">
-                    <li>Blog</li>
-                </a>
-            </ul>
-        </nav>
+        <div class="d-flex justify-content-between padding row">
+            <div class="col-3 d-flex justify-content-start">
+                <button id="menu-toggle"><img src="Graphics/Menu.png"></button>
+            </div>
+            <div class="col-3 d-flex justify-content-center">
+                <img class="center" src="Graphics/Eye.png" id="Eye" alt="The Evil Eye">
+            </div>
+            <div class="col-3 d-flex justify-content-end">
+                <img src="Graphics/Toggle_On.png">
+            </div>
+        </div>
     </header>
-    <div class="grid-container">
 
-        <div class="grid-item"></div>
-        <div class="grid-item">
-            <p>Website in progress come back later.</p><br>
-            <a href="https://www.youtube.com/watch?v=b7Bj1dBMYBE"><a href="Graphics/Eye.png" download>Download File</a>img src=Graphics/Gift.jpg></a>
-            
+    <!--Container for the body of the Homepage.-->
+    <main>
+        <div class="container-fluid">
+            <div id="TopRow" class="Bigger row justify-content-center">
+                <div id="Big_top_left" class="outer_grid col d-flex justify-content-center"></div>
+                <div id="Big_top_middle" class="outer_grid col d-flex justify-content-center"></div>
+                <div id="Big_top_right" class="outer_grid col d-flex justify-content-center"></div>
+            </div>
+            <div id="MiddleRow" class="Bigger row justify-content-center">
+                <div id="Big_middle_left" class="outer_grid col d-flex justify-content-center"></div>
+                <div id="inner_grid" class="container-fluid">
+                    <div class="row">
+                        <div id="Inner_top_left" class="col"></div>
+                        <div id="Inner_top_middle" class="col"></div>
+                        <div id="Inner_top_right" class="col"></div>
+                    </div>
+                    <div class="row">
+                        <div id="Inner_middle_right" class="col"></div>
+                        <div id="center" class="col"></div>
+                        <div id="Inner_middle_left" class="col"></div>
+                    </div>
+                    <div class="row">
+                        <div id="Inner_bottom_left" class="col"></div>
+                        <div id="Inner_bottom_middle" class="col"></div>
+                        <div id="Innter_bottom_right" class="col"></div>
+                    </div>
+                </div>
+                <div id="Big_middle_right" class="outer_grid col d-flex justify-content-center"></div>
+            </div>
+            <div id="Bottom_Row" class="Bigger row justify-content-center">
+                <div id="Big_bottom_left" class="outer_grid col d-flex justify-content-center"></div>
+                <div id="Big_bottom_middle" class="outer_grid col d-flex justify-content-center"></div>
+                <div id="Big_bottom_right" class="outer_grid col d-flex justify-content-center"></div>
+            </div>
         </div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-        <div class="grid-item">
-            
-            
-        </div>
-        <div class="grid-item"></div>
-        <div class="grid-item"> </div>
-        <div class="grid-item"></div>
-        <div class="grid-item"></div>
-    </div>
-    
-    <footer>
-        <ul id="Contact">
-            <li><h2>Contact Me:</h2></li>
-            <li><a href="https://github.com/arcaser/"><img src="Graphics/GitHub.png"></a></li>
-            <li><a href="https://discord.gg/N8Ad9BWBhB" target="_blank"><img src="Graphics/Discord.png"></a></li>
-            <li><a href="mailto:rcampbell@arcaser.quest"><img src="Graphics/Email.png"></a></li>
-        </ul>
-        <div>
-            <a href="#"><img class="center arrow Arrow" src="Graphics\Arrow.png">
-            </a>
+    </main>
+
+    <footer id="footer">
+        <div class="container justify-content-between">
+            <div class="row">
+                <div class="col-12 col-md-6 justify-content-start">
+
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <h2>Contact Me:</h2>
+                        </li>
+                        <li class="list-inline-item"><a href="https://github.com/arcaser/"><img
+                                    src="Graphics/GitHub.png"></a></li>
+                        <li class="list-inline-item"><a href="https://discord.gg/N8Ad9BWBhB" target="_blank"><img
+                                    src="Graphics/Discord.png"></a></li>
+                        <li class="list-inline-item"><a href="mailto:rcampbell@arcaser.quest"><img
+                                    src="Graphics/Email.png"></a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <a href="#"><img class="center arrow Arrow" src="Graphics/Arrow.png"></a>
+                </div>
+            </div>
         </div>
     </footer>
-    <script src="eye-movement.js"></script>
-    
-</body>
+
+    <!--Scripting Section! Keep your hands off you filthy scoundrel-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="JavaScript/Home.js"></script>
+    <script>
+        $('#center').click(function () {
+            changeCenterImage();
+        });
+    </script>

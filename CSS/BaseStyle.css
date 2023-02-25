@@ -1,0 +1,66 @@
+body {
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #abc4ee;
+}
+
+.col-3 img {
+    margin: 10px;
+}
+
+header {
+    background-color: #3a53a6;
+    border-radius: 25px;
+    border: 3px solid #5970bb;
+    margin: 10px;
+}
+
+header img {
+    height: 50px;
+}
+
+footer img {
+    height: 50px;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.Bigger .col {
+    background-color: #3a53a6;
+    border: 1px solid #5970bb;
+}
+
+.Bigger.row {
+    height: 33%;
+
+}
+
+/**Important to functionality**/
+#inner_grid {
+    width: 33%;
+}
+/**/
+#inner_grid .row .col {
+    padding-top: 33.3%;
+}
+
+.outer_grid {
+    padding-top: 25%;
+    padding-left: 25%;
+}
+
+#center {
+    background-color: maroon;
+}
+
+#footer {
+    padding-top: 15px;
+}
+
+main {
+    margin: 10px;
+}

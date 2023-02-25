@@ -1,0 +1,4 @@
+Blog-2/24- Met with Dr.Bussey to talk about the data Project. There was an Error in my code that didnt account for the students in Momentum LCS not being in only Momentum Classes
+, I will fix this this weekend.
+
+Changelog Momentum_Data 2/24/2023 - Added more configurations for testing of the data. GOing to add in fixed Sets tommorow.

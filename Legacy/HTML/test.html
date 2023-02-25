@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset='utf-8'>
+ <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+ <title>Add Courses to Table</title>
+ <link rel = 'stylesheet' href = "https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+</head>
+<body class = "container-fluid bg-light">
+	<div class ="card m-3 p-3">
+   		 <legend class="border-bottom mb-4"> Add Course</legend>
+  		  <div class="form-group">
+  		  	<label>Subject</label>
+  	        <input type="text" class="form-control" id="subject">
+     	    <small class="form-text text-muted" id="subject">Course Subject</small>
+          </div>
+    <div class="form-group">
+    	<label>Number</label>
+        <input type="text" class="form-control" id="number">
+        <small class="form-text text-muted" id="subject">Course Number</small>
+    </div>
+      <div class="form-group">
+    	<label>Title</label>
+        <input type="text" class="form-control" id="title">
+        <small class="form-text text-muted" id="title">Course Title</small>
+        
+ 	
+    </div>
+    <div>
+    	<button id ="add-course" type = "submit" class="btn btn-primary">Add Course</button>
+        <button id ="delete-course" type = "button" class="btn btn-danger">Remove Course</button>
+    </div>
+    </div>
+    <div class = "card m-3">
+    <table id="courses" class="table table-striped mb-0">
+ 		<thead><tr><th>Subject</th><th>Number</th><th>Title</th></tr></thead>
+        <tbody></tbody>
+    </table>
+        
+    </div>
+	<script src="https:/code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    	table = $("table#courses > tbody")
+        $("button#add-course").click(function(){
+        	table.append(`<tr>
+            	<td>${ $("#subject").val() }</td>
+                <td>${ $("#number").val() }</td>
+                <td>${ $("#title").val() }</td>
+                </tr>`);
+            });
+            
+        
+             
+        $("button#delete-course").click(function() {
+            table.children().last().remove();
+        });
+    </script>
+
+</body>
+</html>
+
