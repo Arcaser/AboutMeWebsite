@@ -2,7 +2,7 @@ All
 Chat.openAi.com/Chat - chatGPT
 
 Graphic Design:
-Remove BG - removes backgrounds
+Remove.BG - removes backgrounds
 
 
 Coding & Documentation:

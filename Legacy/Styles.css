@@ -4,11 +4,12 @@ body{
 header {
     width: 100%;
     padding: 0 auto;
-    position: sticky;
+    
     border: 3px solid #6e86d3;
     background-color:rgb(58,83,166);
     margin: 0;
     text-align:right;
+    position: sticky;
     top:0;
     border-radius: 20px;
 }
