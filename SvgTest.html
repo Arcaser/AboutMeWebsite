@@ -28,41 +28,39 @@
             border: 1px solid #3a53a6;
             width: 75%;
             margin: auto;
+            background-color: #7d90cf;
         }
 
-        #submit {
-            display: block;
-            margin: auto;
-            color: red;
-        }
+       
     </style>
 </head>
 
 <body>
-    <svg id="maze_svg" width="400" height="400">
-        <rect x="0" y="0" width="400" height="400" fill="white" />
-        <rect id="red" x="5" y="5" width="30" height="30" fill="red" />
-        <rect id="green" x="365" y="5" width="30" height="30" fill="green" />
-        <rect id="blue" x="5" y="365" width="30" height="30" fill="blue" />
+    <svg id="maze_svg" width="500" height="500">
+        <rect id="border" x="0" y="0" width="450" height="460" stroke-width="5" stroke="black" fill="white" class="wall" />
+        <rect id="center" x="250" y="250" width="30" height="30" fill="gray" />
+        <rect id="red" x="55" y="45" width="30" height="30" fill="red" />
+        <rect id="green" x="400" y="175" width="30" height="30" fill="green" />
+        <rect id="blue" x="100" y="275" width="30" height="30" fill="blue" />
         <rect id="yellow" x="365" y="365" width="30" height="30" fill="yellow" />
-        <line x1="0" y1="0" x2="0" y2="380" stroke="black" stroke-width="5" />
-        <line x1="20" y1="20" x2="20" y2="100" stroke="black" stroke-width="5" />
-        <line x1="380" y1="0" x2="380" y2="380" stroke="black" stroke-width="5" />
-        <line x1="360" y1="20" x2="280" y2="20" stroke="black" stroke-width="5" />
-        <line x1="0" y1="380" x2="380" y2="380" stroke="black" stroke-width="5" />
-        <line x1="20" y1="360" x2="100" y2="360" stroke="black" stroke-width="5" />
-        <line x1="0" y1="0" x2="380" y2="0" stroke="black" stroke-width="5" />
-        <line x1="20" y1="20" x2="100" y2="20" stroke="black" stroke-width="5" />
-        <line x1="20" y1="100" x2="100" y2="100" stroke="black" stroke-width="5" />
-        <line x1="20" y1="180" x2="100" y2="180" stroke="black" stroke-width="5" />
-        <line x1="100" y1="20" x2="100" y2="100" stroke="black" stroke-width="5" />
-        <line x1="180" y1="20" x2="180" y2="100" stroke="black" stroke-width="5" />
-        <line x1="100" y1="180" x2="100" y2="280" stroke="black" stroke-width="5" />
-        <line x1="180" y1="280" x2="280" y2="280" stroke="black" stroke-width="5" />
-        <line x1="280" y1="280" x2="280" y2="180" stroke="black" stroke-width="5" />
-        <line x1="180" y1="180" x2="280" y2="180" stroke="black" stroke-width="5" />
-        <rect id=center x="185" y="185" width="30" height="30" fill="gray" />
-    </svg>
+        
+      
+        <line x1="30" y1="80" x2="430" y2="80" stroke="black" stroke-width="3" class="wall" />
+        <line x1="70" y1="130" x2="420" y2="130" stroke="black" stroke-width="3" class="wall" />
+        <line x1="100" y1="190" x2="380" y2="190" stroke="black" stroke-width="3" class="wall" />
+        <line x1="150" y1="240" x2="330" y2="240" stroke="black" stroke-width="3" class="wall" />
+        <line x1="190" y1="300" x2="290" y2="300" stroke="black" stroke-width="3" class="wall" />
+        <line x1="280" y1="390" x2="200" y2="390" stroke="black" stroke-width="3" class="wall" />
+        <line x1="325" y1="430" x2="155" y2="430" stroke="black" stroke-width="3" class="wall" />
+        <line x1="360" y1="380" x2="360" y2="290" stroke="black" stroke-width="3" class="wall" />
+        <line x1="400" y1="330" x2="400" y2="210" stroke="black" stroke-width="3" class="wall" />
+        <!-- Additional maze lines -->
+        <line x1="30" y1="130" x2="100" y2="130" stroke="black" stroke-width="3" class="wall" />
+        <line x1="100" y1="170" x2="100" y2="240" stroke="black" stroke-width="3" class="wall" />
+        <line x1="70" y1="220" x2="30" y2="220" stroke="black" stroke-width="3" class="wall" />
+        <line x1="200" y1="240" x2="200" y2="300" stroke="black" stroke-width="3" class="wall" />
+      </svg>
+
     <div id="dropdown">
         <label for="menu1">Dropdown 1:</label>
         <select id="menu1">
@@ -80,6 +78,7 @@
             <option value="yellow">Yellow</option>
         </select>
         <button id="submit">Submit</button>
+        <button id="log_X1">Log X1</button>
     </div>
 
 </body>
